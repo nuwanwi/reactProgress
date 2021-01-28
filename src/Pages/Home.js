@@ -163,8 +163,7 @@ export default function SpacingGrid()
           <Grid item xs={4}>
          
 <FormControl className={classes.formControl}>
-       
-       <Select 
+        <Select 
          native
          value={selectedvalue}
          onChange={handleChange}
